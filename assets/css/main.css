@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*-----------------------------------------------------------------------------/ Project: Padr├úo Front End ===========================================   TABLE OF CONTENTS  #SETTINGS................Global variables, config switches. #TOOLS...................Default mixins and functions. #GENERIC.................Ground-zero styles (resets, box-sizing). #BASE....................Unclassed HTML elements (type selectors). #OBJECTS.................Cosmetic-free design patterns. #COMPONENTS..............Designed components, chunks of UI. #TRUMPS..................Helpers and overrides.    ATTENTION: The following parts are imported in the right order DO NOT CHANGE THE ORDER OF THE IMPORTS IN THIS FILE!!!!!  HINT: Each of these parts live in their own directory. Further explanation is provided in the dedicated folders. 
+/*-----------------------------------------------------------------------------/ Project: Padr├úo Front End ===========================================   TABLE OF CONTENTS  #SETTINGS................Global variables, config switches. #TOOLS...................Default mixins and functions. #GENERIC.................Ground-zero styles (resets, box-sizing). #BASE....................Unclassed HTML elements (type selectors). #OBJECTS.................Cosmetic-free design patterns. #COMPONENTS..............Designed components, chunks of UI. #TRUMPS..................Helpers and overrides.    ATTENTION: The following parts are imported in the right order DO NOT CHANGE THE ORDER OF THE IMPORTS IN THIS FILE!!!!!  HINT: Each of these parts live in their own directory. Further explanation is provided in the dedicated folders.
 /-----------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,500,300,100);
 .projects:before, .projects ul:before, .projects:after, .projects ul:after { content: " "; display: table; }
@@ -91,7 +91,7 @@ input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-b
 input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
 input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
 
-body { background-color: #ffffff; color: #333333; font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal; font-size: 16px; background: url("https://s3-sa-east-1.amazonaws.com/brunogallo/imagens/gallo-office.jpg") no-repeat fixed center center; background-size: cover; max-width: 100vw; min-height: 100vh; }
+body { background-color: #ffffff; color: #333333; font-family: "Roboto", sans-serif; font-weight: 400; font-style: normal; font-size: 16px; background: url("https://brunogallo.github.io/portfolio/assets/img/gallo-office.jpg") no-repeat fixed center center; background-size: cover; max-width: 100vw; min-height: 100vh; }
 
 a { text-decoration: none; -webkit-transition: all color 0.3s ease ease-out; -moz-transition: all color 0.3s ease ease-out; -o-transition: all color 0.3s ease ease-out; transition: all color 0.3s ease ease-out; }
 a:hover, a:not[class^="btn--"] { text-decoration: underline; }
